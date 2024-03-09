@@ -1,8 +1,14 @@
 h1{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- 
+ font-size: 5rem;
+ position;
 }
 .links{
     display: flex;
     justify-content: space-between;
+    list-style: none;
+
+}
+body{
+    background-color: blanchedalmond;
 }
