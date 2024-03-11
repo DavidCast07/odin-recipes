@@ -1,14 +1,21 @@
-h1{
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+.index-title{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  font-size: 5rem;
- position;
+ text-align: center;
 }
 .links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
+    font-size: 1.5rem;
+    padding: 0;
+    cursor: pointer;
+}
+.links:hover{
+    color: red;
+}
 
-}
-body{
-    background-color: blanchedalmond;
-}

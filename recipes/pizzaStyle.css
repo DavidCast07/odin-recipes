@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+.h1-pizza{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.p-pizza{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 40px;
+}
+.pizza{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2-pizza{
+    font-size: 2rem;
+    text-align: center;
+}
+.ul-pizza{
+    font-size: 1.2rem;
+    text-align: center;
+}
