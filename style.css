@@ -1,8 +1,26 @@
-h1{
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+.index-title{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- 
+ font-size: 5rem;
+ text-align: center;
 }
 .links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0;
+    cursor: pointer;
 }
+section a{
+    transition: color 0.3s ease;
+    color: rgb(0, 0, 10);
+    text-decoration: none;
+}
+section a:hover{  
+    color:cornflowerblue;
+}
+

@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+.h1-pizza{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.p-pizza{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 40px;
+}
+.pizza{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2-pizza{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+   margin-bottom:0 ;
+}
+.ul-pizza{
+    display: inline-block;
+}
+.h3-pizza{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+.content{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.ol-pizza{
+    display: inline-block;
+}
+footer{
+    background-color: #222;
+    padding: 1rem;
+    color: white;
+}
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
