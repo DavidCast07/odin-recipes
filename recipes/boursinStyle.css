@@ -3,42 +3,38 @@ body{
     background-color: blanchedalmond;
 }
 h1{
+    text-align: center;
     font-size: 3rem;
-    text-align: center;
 }
-.p-brownies{
+p{
+    text-align: center;
     font-size: 1.2rem;
-    text-align: center;
 }
-.imgb{
+img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 h2{
-    font-size: 2rem;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 0;
-}
-container{
-    display: flex;
-    justify-content: center;
-    font-size: 1.2rem;
-    margin: 0; 
-    gap: 80px;
-}
-
-h3{
     font-size: 2rem;
-    text-align: center;
     margin: 0;
+    margin-top: 25px;
 }
 .content{
     font-size: 1.2rem;
     text-align: center;
+    justify-content: center;
 }
-.ol-brow{
+ul{
+    display: inline-block;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+ol{
     display: inline-block;
 }
 footer{
@@ -50,8 +46,9 @@ footer section{
     float: right;
 }
 
-footer p{
+.pf{
     margin: 0;
+    text-align: left;
 }
 footer a{
     transition: color 0.3s ease;
