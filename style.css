@@ -15,7 +15,12 @@ body{
     padding: 0;
     cursor: pointer;
 }
-.links:hover{
-    color: red;
+section a{
+    transition: color 0.3s ease;
+    color: rgb(0, 0, 10);
+    text-decoration: none;
+}
+section a:hover{  
+    color:cornflowerblue;
 }
 

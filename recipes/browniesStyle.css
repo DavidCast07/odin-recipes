@@ -2,42 +2,40 @@ body{
     margin: 0;
     background-color: blanchedalmond;
 }
-.h1-pizza{
+h1{
     font-size: 3rem;
     text-align: center;
 }
-
-.p-pizza{
+.p-brownies{
     font-size: 1.2rem;
     text-align: center;
-    margin: 40px;
 }
-.pizza{
+.imgb{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.h2-pizza{
+h2{
     font-size: 2rem;
     text-align: center;
-    margin-top: 30px;
-   margin-bottom:0 ;
 }
-.ul-pizza{
-    display: inline-block;
-}
-.h3-pizza{
-    text-align: center;
-    font-size: 2rem;
-    margin: 0;
-}
-.content{
+container{
+    display: flex;
+    justify-content: center;
     font-size: 1.2rem;
-    text-align: center;
+    
 }
-.ol-pizza{
+.head{  
+    font-size: 1.2rem;
+}
+.ul-brow {
     display: inline-block;
 }
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
 footer{
     background-color: #222;
     padding: 1rem;
